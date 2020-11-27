@@ -1,0 +1,21 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.lightbg {
+    background-color: #dddddd;
+}
+
+.dbrd-p-7 {
+    padding: 7rem;
+}
+
+.tabborder {
+    border: 3px solid red;
+}
+
+.bdright-red {
+    border-right: 3px solid red !important;
+}
