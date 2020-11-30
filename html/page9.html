@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="lightbg">
+    <div class="p-2">
+        <div class="container">
+            <h4 class="text-center text-danger mb-4 font-weight-bold mt-4 pt-2 ">General</h4>
+            <div class="row justify-content-center bg-white p-5 rounded">
+                <div class="col-md-4 pr-5">
+                    <div class="border shadow bdr-radius p-3">
+                        <table class="table table-borderless m-0">
+                            <thead>
+                                <tr>
+                                    <th colspan="2" class="text-danger font-weight-bold">Order Summary</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Subtotal</td>
+                                    <td>$14</td>
+                                </tr>
+                                <tr>
+                                    <td>Delivery charge</td>
+                                    <td>$10</td>
+
+                                </tr>
+                                <tr class="border-bottom">
+                                    <td>VAT Include 15.0% </td>
+                                    <td>$2.5</td>
+                                </tr>
+                                <tr class="font-weight-bold">
+                                    <td>Total incl. VAT </td>
+                                    <td>$26.5</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    </div>
+
+                </div>
+                <div class="col-md-8 pl-5">
+                    <h3 class="text-danger font-weight-bold">Payment options</h3>
+                    <div class="border border-primary rounded p-2 pl-5">
+                        <h5 class="m-0 font-weight-bold">Credit or Debit Card</h5>
+                        <sub class="text-dark">Visa,Mastercard,AMEX,Discover</sub>
+                    </div>
+                    <form>
+                        <div class="form-group pt-3">
+                            <label class="font-weight-bold" for="Card">Enter your Card information:</label>
+                            <div class="input-group mb-3 rounded-0 border-secondary">
+                                <input type="text" class="form-control " placeholder="Credit/Debit Card Number*" id="Card">
+                                <div class="input-group-append">
+                                    <span class="input-group-text" id="basic-addon1"><img src="img/visa.png" width="25"  alt=""></span>
+                                    <span class="input-group-text" id="basic-addon1"><img src="img/visa.png" width="25"  alt=""></span>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="col-md-5">
+                                <input type="text" class="form-control rounded-0 border-secondary" placeholder="Expiration MM/YY*" id="Card">
+
+                            </div>
+                            <div class="col-md-3">
+                                <input type="text" class="form-control rounded-0 border-secondary" placeholder="CVV*" id="Card">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="font-weight-bold" for="billing">Billing Address:</label>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input rounded-0" type="checkbox" id="billing">
+                                <label class="form-check-label" for="billing">
+                                  use my shipping address
+                                </label>
+                            </div>
+                        </div>
+                        <p>Name<br>H No. O street area<br>city zipcode-xx<br>XXXXXXXXX</p>
+                    </form>
+                    <div class="border border-primary rounded p-3">
+                        <img src="D:\New folder\dashboard-manticore-master\docs\Dashboard_Remaing Screens\Dasboard Assets\paypal.png" class="w-25" alt="Paypal ">
+                    </div>
+                    <button type="button" class=" font-weight-bold btn btn-primary bdr-radius w-25 mr-2 mt-4">Proceed</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
